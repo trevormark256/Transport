@@ -1,0 +1,170 @@
+{
+  "Header": {
+    "title": "Reliable Shipping & Logistics Solutions",
+    "paragraph": "We specialize in efficient cargo movement, freight forwarding, warehousing, and last-mile delivery across local and international borders."
+  },
+  "About": {
+    "paragraph": "Our logistics company offers dependable, cost-effective, and timely transport solutions. Whether you're shipping by land, sea, or air, we ensure seamless delivery tailored to your business needs.",
+    "Why": [
+      "Fast & Secure Shipping",
+      "Customs Clearance Expertise",
+      "Real-time Tracking",
+      "Global Network Reach"
+    ],
+    "Why2": [
+      "Affordable Freight Rates",
+      "Dedicated Customer Support",
+      "Advanced Fleet Management",
+      "Flexible Delivery Options"
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-ship",
+      "name": "Sea Freight",
+      "text": "Full container and less-than-container shipping options for global ocean transport."
+    },
+    {
+      "icon": "fa fa-truck",
+      "name": "Road Transport",
+      "text": "Local and regional transportation of goods with tracking and flexible routes."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Air Freight",
+      "text": "Fast international cargo delivery via trusted airline partnerships."
+    },
+    {
+      "icon": "fa fa-cube",
+      "name": "Warehousing",
+      "text": "Safe and secure storage with inventory management and fulfillment services."
+    },
+    {
+      "icon": "fa fa-exchange",
+      "name": "Customs Clearance",
+      "text": "Hassle-free import/export processes with document handling and compliance support."
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "name": "Last-Mile Delivery",
+      "text": "Timely doorstep delivery solutions tailored to your customers' expectations."
+    }
+  ],
+    "Gallery": [
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Excellent service. Our cargo was delivered on time and in perfect condition. Highly recommended!\"",
+      "name": "Michael A."
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Professional team and seamless communication. They handled our imports with zero delays.\"",
+      "name": "Sarah L."
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Affordable and reliable logistics partner for our growing retail business.\"",
+      "name": "James N."
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Trevor Mark",
+      "job": "Logistics Manager"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Richard Wanambwa",
+      "job": "Operations Executive"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Peter K.",
+      "job": "Customs Clearance Officer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Linda B.",
+      "job": "Customer Support Lead"
+    }
+  ],
+  "Contact": {
+    "address": "Plot 1 Walusimbi Mpanga Rd",
+    "phone": "+256 741 829020",
+    "email": "gmrichroylogistics@gmail.com",
+    "facebook": "https://facebook.com/yourlogisticsco",
+    "twitter": "https://twitter.com/yourlogisticsco",
+    "youtube": "https://youtube.com/yourlogisticsco"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-map-marker",
+      "title": "Wide Coverage",
+      "text": "We deliver to remote and urban locations across East Africa and beyond."
+    },
+ {
+  "icon": "fa fa-globe",
+  "title": "Customer First",
+  "text": "We prioritize your satisfaction by offering responsive, personalized service and solutions tailored to your logistics needs."
+},
+    {
+      "icon": "fa fa-shield",
+      "title": "Secure Handling",
+      "text": "Every package is tracked and secured throughout its journey."
+    },
+    {
+      "icon": "fa fa-cogs",
+      "title": "Tech-Enabled",
+      "text": "Our logistics platform offers real-time tracking and automated updates."
+    }
+ 
+  ]
+}
