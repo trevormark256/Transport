@@ -153,7 +153,7 @@ export const Contact = (props) => {
         <div className="container text-center">
          <p>
   &copy; 2025 [RICH ROY]. All rights reserved. Designed and developed by{" "}
-  <a href="" target="_blank" rel="noopener noreferrer">
+  <a href="https://account.microsoft.com/account" target="_blank" rel="noopener noreferrer">
     Trevor Mark
   </a>
 </p>
