@@ -9,6 +9,7 @@
   margin: auto;
 }
 
+/* Title Styling */
 .section-title h2 {
   font-size: 2.2rem;
   font-weight: 700;
@@ -20,8 +21,7 @@
   font-size: 1rem;
   color: #666;
   max-width: 700px;
-  margin: auto;
-  margin-bottom: 40px;
+  margin: 0 auto 40px; /* cleaner centering */
 }
 
 /* Grid layout */
@@ -29,6 +29,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 40px;
+  justify-items: center; /* ✨ center cards inside the grid */
 }
 
 @media (min-width: 768px) {
@@ -50,12 +51,16 @@
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
+  max-width: 330px;          /* ✨ prevent too-wide cards */
+  width: 100%;
+  text-align: center;        /* ✨ ensure card content is centered */
 }
 
 .service-card:hover {
   transform: translateY(-5px);
 }
 
+/* Icon styling */
 .service-icon {
   width: 80px;
   height: 80px;
@@ -73,6 +78,7 @@
   color: white;
 }
 
+/* Card content */
 .service-card h3 {
   font-size: 1.2rem;
   font-weight: 600;

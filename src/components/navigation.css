@@ -18,8 +18,25 @@
   background: rgba(255, 255, 255, 0.1); /* transparent */
   backdrop-filter: blur(6px); /* nice blur effect */
   z-index: 1000;
-  top: 0;
+  top: 15px;
 }
+.nav-links {
+  display: flex;  /* default: visible on desktop */
+  list-style: none;
+}
+
+/* For mobile, hide menu by default */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    /* other styles for mobile menu */
+  }
+  .nav-links.open {
+    display: flex;  /* show menu when open */
+  }
+}
+
 
 .nav-container {
   display: flex;
@@ -29,7 +46,7 @@
 }
 
 .brand {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
 
@@ -37,10 +54,10 @@
 }
 
 .toggle-button {
-  font-size: 1.5rem;
+  font-size: 3.0rem;
   background: none;
   border: none;
-  color: #fff;
+  color: #000000;
   display: none;
   cursor: pointer;
 }
@@ -71,7 +88,7 @@
 
   .nav-links {
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(179, 178, 178, 0.9);
     position: absolute;
     top: 100%;
     right: 0;

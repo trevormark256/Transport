@@ -1,9 +1,9 @@
 import React from "react";
-
+import './Testmonials.css';
 export const Testimonials = (props) => {
   return (
     <div id="testimonials">
-      <div className="container">
+      <div className="">
         <div className="section-title text-center">
           <h2>What our clients say</h2>
         </div>

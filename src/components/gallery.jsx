@@ -1,15 +1,15 @@
 import { Image } from "./image";
-import React from "react";
+
+import '../components/Gallary.css';
 
 export const Gallery = (props) => {
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>LOGISTICS IN ACTION</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          See how our team delivers value across Uganda and beyond..
           </p>
         </div>
         <div className="row">

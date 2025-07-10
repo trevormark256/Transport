@@ -3,9 +3,15 @@ import "./navigation.css";
 
 export const Navigation = () => {
   const [activeLink, setActiveLink] = useState("#page-top");
+  const [isOpen, setIsOpen] = useState(false);  // NEW state for toggle menu
 
   const handleClick = (href) => {
     setActiveLink(href);
+    setIsOpen(false); // close menu when a link is clicked (optional)
+  };
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   const navLinks = [
@@ -22,9 +28,12 @@ export const Navigation = () => {
     <nav className="nav">
       <div className="nav-container">
         <a href="#page-top" className="brand">RICHROY</a>
-        <button className="toggle-button">☰</button>
+        <button className="toggle-button" onClick={toggleMenu}>
+          ☰
+        </button>
 
-        <ul className="nav-links">
+        {/* Add a class to show/hide the menu based on isOpen */}
+        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
           {navLinks.map((link, i) => (
             <li key={i}>
               <a
